@@ -2,12 +2,12 @@
 /* Leah Bernhardt */
 
 body {
-    color: #ffffff;
-    justify-content: center;
-    background-size: cover;
-    background-attachment: scroll;
-    background-image: url(../Images/Front-Business.jpg);	/* Background is property of ©2022 Bungie, Inc. All rights reserved. For academic purposes only.*/
-    margin-top: -52px;
+	color: #ffffff;
+	justify-content: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-image: url(../Images/Front-Business.jpg);	/* Background is property of ©2022 Bungie, Inc. All rights reserved. For academic purposes only.*/
+	margin-top: 184px;
 }
 h1 {
 	font-style: normal;
