@@ -7,47 +7,74 @@ body {
     background-size: cover;
     background-attachment: scroll;
     background-image: url(../Images/Front-Business.jpg);	/* Background is property of ©2022 Bungie, Inc. All rights reserved. For academic purposes only.*/
+    margin-top: -52px;
 }
 h1 {
 	font-style: normal;
-	font-size: 4em;
+	font-size: 64px;
 	text-align: center;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-family: Georgia;
+	font-weight: 400;
 	margin-bottom: 11px;
+	border-radius: 32px;
+	border-width: 36px;
+	border-color: #FFFFFF;
+	margin-top: 44px;
 }
+aside h1 small {
+	font-size: xx-large;
+	font-fmaily: Comfortaa;
+}
+
+
 aside {
-	text-align: center;
-	clear: both;
+    text-align: center;
+    clear: both;
+    -webkit-box-shadow: -1px -1px 0px 13px;
+    box-shadow: -1px -1px 0px 13px;
+    border-radius: 24px;
+    margin-left: -28px;
 }
 
 section {
-	background-color: #FFFFFF;
-	/*background-color: rgba(255, 255, 255, .5);*/
-	color: #000000;
-	border-radius: 10px;
-	margin-left: 1%;
-	margin-right: 5%;
-	padding-top: 2%;
-	padding-right: 2%;
-	padding-bottom: 2%;
-	padding-left: 2%;
-	float: none;
-	clear: both;
-	font-size: large;
+    background-color: #FFFFFF;
+    /*background-color: rgba(255, 255, 255, .5);*/
+    color: #000000;
+    border-radius: 10px;
+    margin-left: 1%;
+    margin-right: 5%;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    float: none;
+    clear: both;
+    font-size: large;
+    margin-top: 45px;
 }
 
 
 
 
 h2 {
+	font-family: 'Comfortaa', cursive;
 	font-style: normal;
-	font-weight: 200;
+	font-weight: 700;
 	text-align: center;
 	font-size: 2em;
 }
 section {
 }
+section p b {
+}
+body section p {
+	font-size: 23px;
+}
+
+
+
 p {
+font-family: 'Comfortaa', cursive;
 }
 
 
@@ -56,20 +83,21 @@ h3 {
 	text-align: center;
 }
 footer {
+	font-family: 'Comfortaa', cursive;
 	font-size: small;
 	text-align: center;
 	clear: both;
 	position: fixed;
 	bottom: 0px;
-	width: 101%;
+	width: 100%;
 	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(0,0,0,1.00) 100%);
 	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(0,0,0,1.00) 100%);
 	background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(0,0,0,1.00) 100%);
 	background-image: linear-gradient(180deg,rgba(255,255,255,0.00) 0%,rgba(0,0,0,1.00) 100%);
-	height: 48px;
+	height: 34px;
 	padding-top: 10px;
 	vertical-align: baseline;
-	margin-left: -44px;
+	margin-left: -80px;
 }
 header {
     text-align: center;
@@ -77,6 +105,7 @@ header {
     margin-right: 18px;
     margin-bottom: 0px;
     margin-left: 80px;
+    border-radius: 0px;
 }
 
 button {
@@ -103,8 +132,8 @@ button {
 
 .custom-btn {
 	padding: 10px 25px;
-	font-family: 'Lato', sans-serif;
-	font-weight: 500;
+	font-family: 'Comfortaa', cursive;
+	font-weight: 700;
 	background: transparent;
 	cursor: pointer;
 	transition: all 0.3s ease;
@@ -124,6 +153,7 @@ button {
     background-image: linear-gradient(315deg,rgba(150,247,162,1.00) 0%,rgba(5,228,51,1.00) 74%);
     border: none;
     z-index: 1;
+
 }
 .btn-13:after {
   position: absolute;
@@ -177,5 +207,13 @@ body section h3 {
 	margin-left: -652px;
 }
 body {
-	text-align: center;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 62px;
+}
+
+section h1 b {
+	font-family: 'Comfortaa', cursive;
+	font-weight: 700;
+	font-size: 60px;
 }
